@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cancer Awareness & Support</title>
+
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Landing / banner section -->
+  <header class="hero">
+    <h1>Cancer Awareness &amp; Support</h1>
+    <p>Together we spread awareness and support those fighting cancer.</p>
+    <img src="images/banner.jpg" alt="Cancer awareness banner">
+  </header>
+
+  <!-- Contact form section -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section class="quotes">
+  <h2>Inspiring Quote</h2>
+  <div id="quote-box">
+    <p id="quote-text">Click the button to load a quote.</p>
+    <p id="quote-author"></p>
+    <button id="new-quote">Get New Quote</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

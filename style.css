@@ -1,0 +1,113 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Hero / banner */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #e91e63, #9c27b0);
+  color: #fff;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Contact section */
+.contact {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.contact h2 {
+  margin-top: 0;
+}
+
+.contact label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  margin-top: 15px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e91e63;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #c2185b;
+}
+
+/* Quotes section */
+.quotes {
+  max-width: 600px;
+  margin: 20px auto 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#new-quote {
+  margin-top: 15px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #9c27b0;
+  color: #fff;
+  cursor: pointer;
+}
+
+#new-quote:hover {
+  background-color: #7b1fa2;
+}
+
+/* Basic responsiveness */
+@media (max-width: 768px) {
+  .hero {
+    padding: 30px 15px;
+  }
+
+  .contact,
+  .quotes {
+    margin: 20px 10px;
+  }
+}
